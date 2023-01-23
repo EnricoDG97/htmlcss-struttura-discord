@@ -68,6 +68,8 @@ li {
     /* test */
 }
 
+/* second part of the header (out of nav bar) */
+
 .jumbo {
     background-color: #e56a9c;
     height: 450px;
@@ -121,6 +123,8 @@ li {
     /* test */
 }
 
+/* start first section */
+
 #section_1 {
     height: 550px;
     background-color: white;
@@ -169,19 +173,72 @@ li {
     /* test; */
 }
 
+#section_2 {
+    height: 550px;
+    background-color: #c3c3c3;
+    /* test */
+}
 
+/* first section end */
 
-
-
-
-
-
-
-
-
+/* HR between first and second section */
 
 hr {
     border-bottom: 1px solid rgb(158, 153, 153);
     /* test */
 }
+
+/* start second section */
+
+.second_section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* test */
+}
+
+#textdiv_2 {
+    width: 40%;
+    height: 250px;
+    background-color: #43b480;
+    /* test */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#textdiv_2_title {
+    background-color: white;
+    width: auto;
+    height: 40%;
+    margin: 20px 20px 0 20px;
+    /* test */
+}
+
+#textdiv_2_paragraph {
+    background-color: white;
+    width: auto;
+    height: 40%;
+    margin: 0 20px 20px 20px;
+    /* test; */
+}
+
+#imagediv_2 {
+    width: 40%;
+    height: 250px;
+    background-color: #292841;
+    /* test */
+}
+
+
+
+
+
+
+
+
+
+
 
