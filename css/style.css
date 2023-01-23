@@ -6,6 +6,7 @@
 
 header {
     background-color: #255ee9;
+    /* test */
 }
 
 nav {
@@ -27,26 +28,24 @@ nav {
     width: 70px;
     background-color: lightskyblue;
     /* test */
-
 }
 
 #links {
     width: 400px;
     background-color: lightskyblue;
     height: 70px;
-    display: flex;
     /* test */
 }
 
 #links ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     list-style: none;
     width: 100%;
     height: 100%;
-    align-items: center;
     /* test */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 li {
@@ -61,6 +60,62 @@ li {
     height: 70px;
     background-color: lightskyblue;
     /* test */
-
 }
+
+.jumbo {
+    background-color: #e56a9c;
+    height: 450px;
+    /* test */
+}
+
+.maintext {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    /* test */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#title {
+    background-color: #b13774;
+    height: 50px;
+    width: 50%;
+    /* test */
+}
+
+#header-p {
+    background-color: #b13774;
+    height: 150px;
+    width: 70%;
+    /* test */
+}
+
+#header-buttons {
+    height: 30px;
+    width: 30%;
+    background-color: #b13774;
+    /* test */
+    display: flex;
+    justify-content: space-between;
+}
+
+#download-button {
+    height: auto;
+    width: 30%;
+    background-color: white;
+    /* test */
+}
+
+#web-browse-button {
+    height: auto;
+    width: 60%;
+    background-color: white;
+    /* test */
+}
+
 
