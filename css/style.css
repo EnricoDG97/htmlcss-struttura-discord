@@ -173,12 +173,6 @@ li {
     /* test; */
 }
 
-#section_2 {
-    height: 550px;
-    background-color: #c3c3c3;
-    /* test */
-}
-
 /* first section end */
 
 /* HR between first and second section */
@@ -189,6 +183,12 @@ hr {
 }
 
 /* start second section */
+
+#section_2 {
+    height: 550px;
+    background-color: #c3c3c3;
+    /* test */
+}
 
 .second_section {
     height: 100%;
@@ -232,8 +232,59 @@ hr {
     /* test */
 }
 
+/* finish second section */
 
+/* start third section */
 
+#section_3 {
+    height: 550px;
+    background-color: white;
+    /* test */
+}
+
+.third_section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* test */
+}
+
+#imagediv_3 {
+    width: 40%;
+    height: 250px;
+    background-color: #292841;
+    /* test */
+}
+
+#textdiv_3 {
+    width: 40%;
+    height: 250px;
+    background-color: #43b480;
+    /* test */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#textdiv_3_title {
+    background-color: white;
+    width: auto;
+    height: 60%;
+    margin: 20px 20px 0 20px;
+    /* test */
+}
+
+#textdiv_3_paragraph {
+    background-color: white;
+    width: auto;
+    height: 30%;
+    margin: 0 20px 20px 20px;
+    /* test; */
+}
+
+/* finish third section */
 
 
 
