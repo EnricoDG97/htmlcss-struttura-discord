@@ -326,6 +326,32 @@ hr {
 /* finish fourth section */
 /* start fifth section */
 
+#section_5 {
+    height: 250px;
+    background-color: #c3c3c3;
+    /* test */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+#imagediv_5 {
+    width: 40%;
+    height: 35px;
+    background-color: white;
+    /* test */
+}
+
+#download_button_2 {
+    width: 30%;
+    height: 35px;
+    background-color: white;
+    /* test */
+}
+
+/* finish section 5 */
+/* start footer */
 
 
